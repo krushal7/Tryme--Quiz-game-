@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: C#
+  m_EditorClassIdentifier: 
+  categoryName: C#
+  questions:
+  - questionInfo: Which of the following variable types can be assigned a value directly
+      in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Value Types
+    - Reference Types
+    - Pointer Types
+    - All of the above
+    correctAns: Value Types
+  - questionInfo: Which of the following converts a type to a signed byte type in
+      C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - ToInt64
+    - ToSbyte
+    - ToSingle
+    - ToInt32
+    correctAns: ToSbyte
+  - questionInfo: Which of the following operator determines whether an object is
+      of a certain type in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - '?:'
+    - is
+    - as
+    - '*'
+    correctAns: is
+  - questionInfo: Which of the following access specifier in C# allows a class to
+      hide its member variables and member functions from other functions and objects?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - public
+    - private
+    - protected
+    - Internal
+    correctAns: private
+  - questionInfo: Which collection type is designed to store elements in key-value
+      pairs with unique keys in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - List
+    - Dictionary
+    - HashSet
+    - Queue
+    correctAns: Dictionary
+  - questionInfo: Which of the following preprocessor directive defines a sequence
+      of characters as symbol in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - define
+    - undef
+    - region
+    - endregion
+    correctAns: define
+  - questionInfo: 'Which of the following preprocessor directive allows generating
+      a level one warning from a specific location in your code in C#?  '
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - warning
+    - region
+    - line
+    - error
+    correctAns: warning
+  - questionInfo: 'Which keyword is used to prevent a class from being inherited
+      in C#?  '
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - sealed
+    - static
+    - abstract
+    - final
+    correctAns: sealed
+  - questionInfo: Which collection type is typically used for storing key-value pairs
+      in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - List
+    - Dictionary
+    - Array
+    - Queue
+    correctAns: Dictionary
+  - questionInfo: What does the "base" keyword refer to in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Current instance of the class
+    - Derived class
+    - Base class
+    - Object class
+    correctAns: Base class
+  - questionInfo: In C#, what keyword is used to implement method overloading?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - override
+    - virtual
+    - new
+    - static
+    correctAns: new
+  - questionInfo: Which of the following access modifiers is not valid for a class
+      in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - private
+    - protected
+    - internal
+    - sealed
+    correctAns: protected
+  - questionInfo: What is the purpose of the "using" statement in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Importing namespaces
+    - Defining variables
+    - Creating objects
+    - Declaring methods
+    correctAns: Importing namespaces
+  - questionInfo: Which of the following is an example of a value type in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - string
+    - int[]
+    - DateTime
+    - object
+    correctAns: int[]
+  - questionInfo: What is the purpose of the "yield" keyword in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Exception handling
+    - Asynchronous programming
+    - Iteration
+    - Memory allocation
+    correctAns: Iteration
+  - questionInfo: Which keyword is used to define a constant in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - const
+    - readonly
+    - static
+    - final
+    correctAns: const
+  - questionInfo: 'What does the term "boxing" refer to in C#?  '
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Converting a value type to a reference type
+    - Converting a reference type to a value type
+    - Converting a string to an integer
+    - Converting a double to a float
+    correctAns: Converting a value type to a reference type
+  - questionInfo: What is the purpose of the "is" keyword in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Type casting
+    - Checking object identity
+    - Exception handling
+    - Pattern matching
+    correctAns: Checking object identity
+  - questionInfo: Which of the following is used for asynchronous programming in
+      C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - sync
+    - async
+    - await
+    - defer
+    correctAns: async
+  - questionInfo: What is the purpose of the "using" statement in the context of
+      resource management in C#?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Allocating memory
+    - Handling exceptions
+    - Releasing resources
+    - Creating objects
+    correctAns: Releasing resources
+  correctOptionIndex: 0
+  questionText: 

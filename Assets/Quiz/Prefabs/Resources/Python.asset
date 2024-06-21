@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Python
+  m_EditorClassIdentifier: 
+  categoryName: Python
+  questions:
+  - questionInfo: In Python, which data structure is used to implement a Last-In-First-Out
+      (LIFO) order?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Queue
+    - Stack
+    - List
+    - Tuple
+    correctAns: Stack
+  - questionInfo: What does the term "duck typing" refer to in Python?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Type casting
+    - Dynamic typing
+    - Static typing
+    - Exception handling
+    correctAns: Dynamic typing
+  - questionInfo: Which keyword is used to define a function in Python?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+    options:
+    - def
+    - function
+    - define
+    - func
+    correctAns: def
+  - questionInfo: In Python, what is the purpose of the "try" and "except" blocks
+      in exception handling?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Defining variables
+    - Creating objects
+    - Handling exceptions
+    - Declaring methods
+    correctAns: Handling exceptions
+  - questionInfo: What is the purpose of the "import" statement in Python?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Defining variables
+    - Creating objects
+    - Including external modules
+    - Declaring methods
+    correctAns: Including external modules
+  - questionInfo: What is the purpose of the "global" keyword in Python?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Declaring a global variable
+    - Allocating memory
+    - Indicating a module import
+    - Specifying optional parameters
+    correctAns: Declaring a global variable
+  - questionInfo: What is the purpose of the "format" method in Python strings?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 5d00affa1ba994440b82b4f1c20c72fb, type: 3}
+    options:
+    - Converting a string to uppercase
+    - Concatenating two strings
+    - Formatting numerical values into a string
+    - Removing leading and trailing whitespace
+    correctAns: Formatting numerical values into a string
+  - questionInfo: ' In Python, what is the purpose of the "break" statement in a
+      loop?'
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Terminating the loop prematurely
+    - Skipping the current iteration
+    - Continuing to the next iteration of the loop
+    - Resuming the loop from the beginning
+    correctAns: Terminating the loop prematurely
+  - questionInfo: What is the purpose of the "set" data type in Python?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Storing key-value pairs
+    - Ensuring uniqueness of elements
+    - Representing ordered sequences
+    - Sorting elements in ascending order
+    correctAns: Ensuring uniqueness of elements
+  - questionInfo: What is the purpose of the "lambda" keyword in Python?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Defining a new class
+    - Declaring a constant
+    - Creating an anonymous function
+    - Indicating a module import
+    correctAns: Creating an anonymous function
+  - questionInfo: In Python, what is the purpose of the "hash" function?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 7a07241ec9d50c14583bf87319426eb2, type: 3}
+    options:
+    - Creating a hash table
+    - Generating a unique identifier for an object
+    - Sorting elements in a list
+    - Checking if a key exists in a dictionary
+    correctAns: Generating a unique identifier for an object
+  - questionInfo: In Python, what is the purpose of the "doc" attribute of a function
+      or class?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 7a07241ec9d50c14583bf87319426eb2, type: 3}
+    options:
+    - Accessing the documentation string
+    - Identifying the type of the object
+    - Obtaining the name of the object
+    - Obtaining the name of the object
+    correctAns: Accessing the documentation string
+  - questionInfo: How do you start writing a while loop in Python?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 7a07241ec9d50c14583bf87319426eb2, type: 3}
+    options:
+    - 'while x > y:'
+    - while (x > y)
+    - while x > y {
+    - x > y while {
+    correctAns: 'while x > y:'
+  - questionInfo: Which method should I use to get 4 elements from the following
+      list randomly
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 07c64e8dc472f7741835906bd7d36fa5, type: 3}
+    options:
+    - random.choice(samplelist, 4)
+    - random.sample(samplelist, 4)
+    - random.select(samplelist, 4)
+    - random.sample(list, 4)
+    correctAns: random.sample(samplelist, 4)
+  - questionInfo: Choose the correct function to get 3 elements from the list randomly
+      in such a way that each element of the list has a different probability of
+      being selected.
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: f7a8dad004b40124fa22296762efd666, type: 3}
+    options:
+    - random.choice(numberList, weights=(10, 5, 15, 20, 50), k=3
+    - random.sample(numberList, weights=(10, 5, 15, 20, 50), k=3)
+    - random.choices(numberList, weights=(10, 5, 15, 20, 50), k=3)
+    - random.select(numberList, weights=(10, 5, 15, 20, 50), k=3)
+    correctAns: random.choices(numberList, weights=(10, 5, 15, 20, 50), k=3)
+  - questionInfo: What is the output of the following code?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: dd9d92310b7b46f45812877456e2c2b9, type: 3}
+    options:
+    - 10 20
+    - 30 20
+    - 30 10 20
+    - 10 20 30
+    correctAns: 10 20 30
+  - questionInfo: What is the output of the following
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 057201c872c5095479fd71b9946e0929, type: 3}
+    options:
+    - 182.0
+    - 37
+    - 117
+    - The Program executed with errors
+    correctAns: 182.0
+  - questionInfo: What is the output of the following code?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 6acbd5d0284cd374eac0af1736a3805a, type: 3}
+    options:
+    - JamesJamesJamesJamesJames
+    - JamesJamesJamesJamesJamesJames
+    - 'Error: invalid syntax'
+    - james
+    correctAns: JamesJamesJamesJamesJamesJames
+  - questionInfo: What is the output of the following code?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 00228e071deca104497bb445f085bdf4, type: 3}
+    options:
+    - 10, 11, 12, 13,
+    - 10, 11, 12, 13, 14,
+    - 10, 11, 12, 13, 14, 15,
+    - 10, 11, 12,
+    correctAns: 10, 11, 12, 13, 14,
+  - questionInfo: Which of these is not a core data type?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 00228e071deca104497bb445f085bdf4, type: 3}
+    options:
+    - Lists
+    - Dictionary
+    - Tuples
+    - Class
+    correctAns: Class
+  correctOptionIndex: 0
+  questionText: 

@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: C++
+  m_EditorClassIdentifier: 
+  categoryName: C++
+  questions:
+  - questionInfo: What is the output of the following code? int x = 5; cout << ++x;
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 6
+    - 5
+    - 4
+    - Compilation Error
+    correctAns: 6
+  - questionInfo: Which header file is needed to work with strings in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - iostream
+    - cstring
+    - string
+    - stdio.h
+    correctAns: string
+  - questionInfo: Which of the following is used to terminate the function declaration
+      in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - '}'
+    - ']'
+    - ;
+    - ':'
+    correctAns: ;
+  - questionInfo: What is the access specifier for a class member that can be accessed
+      from anywhere in the program?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Public
+    - Private
+    - Protected
+    - Global
+    correctAns: Public
+  - questionInfo: Which C++ loop allows execution of the loop body at least once?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - for loop
+    - while loop
+    - do-while loop
+    - if loop
+    correctAns: do-while loop
+  - questionInfo: In C++, what is the maximum number of function arguments that can
+      be passed?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 64
+    - 128
+    - 256
+    - 648
+    correctAns: 64
+  - questionInfo: Who invented C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dennis Ritchie
+    - Ken Thompson
+    - Brian Kernighan
+    - Bjarne Stroustrup
+    correctAns: Bjarne Stroustrup
+  - questionInfo: Which of the following user-defined header file extension used
+      in c++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - hg
+    - cpp
+    - h
+    - hf
+    correctAns: cpp
+  - questionInfo: Which of the following symbol is used to declare the preprocessor
+      directives in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - $
+    - ^
+    - '#'
+    - '*'
+    correctAns: '#'
+  - questionInfo: What is meant by a polymorphism in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - class having only single form
+    - class having four forms
+    - class having many forms
+    - class having two forms
+    correctAns: class having many forms
+  - questionInfo: Which of the following constructors are provided by the C++ compiler
+      if not defined in a class?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - All of the mentioned
+    - Copy constructor
+    - Default constructor
+    - Assignment constructor
+    correctAns: All of the mentioned
+  - questionInfo: Which is more effective while calling the C++ functions?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - call by reference
+    - call by object
+    - call by pointer
+    - call by value
+    correctAns: call by reference
+  - questionInfo: ' Which of the following correctly declares an array in C++?'
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - array{10};
+    - array array[10];
+    - int array;
+    - int array[10];
+    correctAns: int array[10];
+  - questionInfo: By default, all the files in C++ are opened in _________ mode.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Binary
+    - VTC
+    - Text
+    - ISCII
+    correctAns: Text
+  - questionInfo: Which of the following type is provided by C++ but not C?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - bool
+    - double
+    - float
+    - int
+    correctAns: bool
+  - questionInfo: Which of the following approach is used by C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Left-right
+    - Right-left
+    - Bottom-up
+    - Top-down
+    correctAns: Bottom-up
+  - questionInfo: Which of the following is not a type of Constructor in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Default constructor
+    - Friend constructor
+    - Parameterized constructor
+    - Copy constructor
+    correctAns: Friend constructor
+  - questionInfo: The C++ code which causes abnormal termination/behaviour of a program
+      should be written under _________ block.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - catch
+    - throw
+    - try
+    - finally
+    correctAns: try
+  - questionInfo: What is Inheritance in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Deriving new classes from existing classes
+    - Overloading of classes
+    - Classes with same names
+    - Wrapping of data into a single class
+    correctAns: Deriving new classes from existing classes
+  - questionInfo: Which concept allows you to reuse the written code in C++?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Inheritance
+    - Polymorphism
+    - Abstraction
+    - Encapsulation
+    correctAns: Inheritance
+  correctOptionIndex: 0
+  questionText: 
